@@ -1,0 +1,59 @@
+
+.pokemon-sad{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+form {
+    width: 200px;
+    margin-left: 70px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: Helvetica;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    background-color: #FFF;
+    border: 1px solid black;
+    margin: 0 auto; 
+    margin-left: 15px; 
+    margin-top: 20px;
+}
+
+.pokemon-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.pokemon-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.principal {
+    background-image: url(./pokedex1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-left: 500px;
+
+    height: 625px;
+    width: 400px;
+}
